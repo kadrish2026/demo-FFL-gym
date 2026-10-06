@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FFL Gym | Build Your Stronger Self</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<!-- NAVBAR (change the gym name here) -->
+<header class="navbar" id="navbar">
+  <a href="#home" class="logo">FFL <span>GYM</span></a>
+  <nav class="nav-links" id="navLinks">
+    <a href="#home">Home</a><a href="#about">About</a><a href="#programs">Programs</a>
+    <a href="#trainers">Trainers</a><a href="#membership">Membership</a>
+    <a href="#gallery">Gallery</a><a href="#contact">Contact</a>
+    <a href="#contact" class="btn btn-small">Join Now</a>
+  </nav>
+  <button class="hamburger" id="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <!-- HERO IMAGE: Replace this image with FFL Gym's main hero/gym image -->
+  <img class="hero-bg" src="assets/images/hero-gym.jpg" alt="FFL Gym">
+  <canvas class="scene-canvas" id="heroCanvas"></canvas>
+  <div class="hero-content">
+    <h1><span class="line">BUILD YOUR</span><span class="line">STRONGER SELF.</span></h1>
+    <p class="hero-text">Train harder. Move stronger. Become the best version of yourself at FFL Gym.</p>
+    <div class="hero-buttons">
+      <a href="#contact" class="btn">Join FFL Gym</a>
+      <a href="#programs" class="btn btn-outline">Explore Programs</a>
+    </div>
+  </div>
+</section>
+
+<!-- STATS: change data-count to change the numbers -->
+<section class="stats">
+  <div class="stat"><strong data-count="500">0</strong>+<p>Members</p></div>
+  <div class="stat"><strong data-count="20">0</strong>+<p>Expert Trainers</p></div>
+  <div class="stat"><strong data-count="15">0</strong>+<p>Training Programs</p></div>
+  <div class="stat"><strong data-count="5">0</strong>+<p>Years Experience</p></div>
+</section>
+
+<!-- ABOUT -->
+<section class="section about" id="about">
+  <div class="about-image reveal">
+    <!-- ABOUT SECTION IMAGE -->
+    <img src="assets/images/about-gym.jpg" alt="Inside FFL Gym" loading="lazy">
+    <div class="why-card"><strong>01</strong><span>Why FFL?</span></div>
+  </div>
+  <div class="about-text reveal">
+    <h2>MORE THAN A GYM.</h2>
+    <p>FFL Gym is built around people who want real results. We care about how you train, not just how often you show up.</p>
+    <ul class="feature-list">
+      <li>Strength that carries into daily life</li>
+      <li>Discipline built one session at a time</li>
+      <li>Fitness plans that fit your schedule</li>
+      <li>Confidence you can feel</li>
+      <li>A community that trains together</li>
+    </ul>
+  </div>
+</section>
+
+<!-- PROGRAMS: copy one <article> block to add a program, delete one to remove it -->
+<section class="section" id="programs">
+  <h2 class="section-title reveal">TRAINING PROGRAMS</h2>
+  <div class="card-grid">
+    <article class="program-card tilt reveal">
+      <!-- PROGRAM IMAGE: Strength Training -->
+      <img src="assets/images/program-strength.jpg" alt="Strength Training" loading="lazy">
+      <div class="card-body"><span class="icon">🏋️</span><h3>Strength Training</h3><p>Build raw strength and power.</p><a href="#contact">Explore Program</a></div>
+    </article>
+    <article class="program-card tilt reveal">
+      <!-- PROGRAM IMAGE: Weight Loss -->
+      <img src="assets/images/program-weightloss.jpg" alt="Weight Loss" loading="lazy">
+      <div class="card-body"><span class="icon">🔥</span><h3>Weight Loss</h3><p>Structured workouts designed to help you burn fat and improve fitness.</p><a href="#contact">Explore Program</a></div>
+    </article>
+    <article class="program-card tilt reveal">
+      <!-- PROGRAM IMAGE: Muscle Building -->
+      <img src="assets/images/program-muscle.jpg" alt="Muscle Building" loading="lazy">
+      <div class="card-body"><span class="icon">💪</span><h3>Muscle Building</h3><p>Progressive training for muscle growth.</p><a href="#contact">Explore Program</a></div>
+    </article>
+    <article class="program-card tilt reveal">
+      <!-- PROGRAM IMAGE: Personal Training -->
+      <img src="assets/images/program-personal.jpg" alt="Personal Training" loading="lazy">
+      <div class="card-body"><span class="icon">🎯</span><h3>Personal Training</h3><p>One-to-one guidance from experienced trainers.</p><a href="#contact">Explore Program</a></div>
+    </article>
+    <article class="program-card tilt reveal">
+      <!-- PROGRAM IMAGE: Functional Training -->
+      <img src="assets/images/program-functional.jpg" alt="Functional Training" loading="lazy">
+      <div class="card-body"><span class="icon">🤸</span><h3>Functional Training</h3><p>Improve mobility, balance and everyday performance.</p><a href="#contact">Explore Program</a></div>
+    </article>
+    <article class="program-card tilt reveal">
+      <!-- PROGRAM IMAGE: HIIT -->
+      <img src="assets/images/program-hiit.jpg" alt="HIIT" loading="lazy">
+      <div class="card-body"><span class="icon">⚡</span><h3>HIIT</h3><p>High-intensity workouts for strength and conditioning.</p><a href="#contact">Explore Program</a></div>
+    </article>
+  </div>
+</section>
+
+<!-- WHY CHOOSE FFL -->
+<section class="section why">
+  <h2 class="big-title reveal">TRAIN WITH PURPOSE.</h2>
+  <div class="why-grid">
+    <div class="why-item reveal"><span class="icon">🛠️</span><h3>Modern Equipment</h3></div>
+    <div class="why-item reveal"><span class="icon">📜</span><h3>Certified Trainers</h3></div>
+    <div class="why-item reveal"><span class="icon">📋</span><h3>Personalized Workouts</h3></div>
+    <div class="why-item reveal"><span class="icon">✨</span><h3>Clean Training Environment</h3></div>
+    <div class="why-item reveal"><span class="icon">🗓️</span><h3>Flexible Memberships</h3></div>
+    <div class="why-item reveal"><span class="icon">🤝</span><h3>Supportive Community</h3></div>
+  </div>
+</section>
+
+<!-- TRAINERS: copy one <article> to add a trainer -->
+<section class="section" id="trainers">
+  <h2 class="section-title reveal">MEET THE TRAINERS</h2>
+  <div class="card-grid three">
+    <article class="trainer-card reveal">
+      <!-- TRAINER 1 IMAGE -->
+      <img src="assets/images/trainer-1.jpg" alt="Arjun Sharma" loading="lazy">
+      <div class="trainer-info"><h3>Arjun Sharma</h3><p>Strength &amp; Conditioning Coach</p>
+        <div class="trainer-more"><small>8 years experience</small><a href="#" aria-label="Instagram">Instagram</a></div></div>
+    </article>
+    <article class="trainer-card reveal">
+      <!-- TRAINER 2 IMAGE -->
+      <img src="assets/images/trainer-2.jpg" alt="Rahul Verma" loading="lazy">
+      <div class="trainer-info"><h3>Rahul Verma</h3><p>Muscle Building Coach</p>
+        <div class="trainer-more"><small>6 years experience</small><a href="#" aria-label="Instagram">Instagram</a></div></div>
+    </article>
+    <article class="trainer-card reveal">
+      <!-- TRAINER 3 IMAGE -->
+      <img src="assets/images/trainer-3.jpg" alt="Aman Singh" loading="lazy">
+      <div class="trainer-info"><h3>Aman Singh</h3><p>Functional Training Coach</p>
+        <div class="trainer-more"><small>5 years experience</small><a href="#" aria-label="Instagram">Instagram</a></div></div>
+    </article>
+  </div>
+</section>
+
+<!-- 3D SECTION -->
+<section class="section beyond">
+  <canvas class="scene-canvas" id="plateCanvas"></canvas>
+  <h2 class="big-title reveal">PUSH BEYOND<br>YOUR LIMITS.</h2>
+</section>
+
+<!-- MEMBERSHIP: cards are built by js/script.js (see the "plans" list) -->
+<section class="section" id="membership">
+  <h2 class="section-title reveal">MEMBERSHIP</h2>
+  <div class="pricing-grid" id="pricingGrid"></div>
+</section>
+
+<!-- GALLERY -->
+<section class="section" id="gallery">
+  <h2 class="section-title reveal">GALLERY</h2>
+  <div class="gallery">
+    <!-- GALLERY IMAGE 1: weight training -->
+    <img src="assets/images/gallery-1.jpg" alt="Weight training" loading="lazy" class="tall">
+    <!-- GALLERY IMAGE 2: cardio -->
+    <img src="assets/images/gallery-2.jpg" alt="Cardio" loading="lazy">
+    <!-- GALLERY IMAGE 3: trainers -->
+    <img src="assets/images/gallery-3.jpg" alt="Trainers" loading="lazy">
+    <!-- GALLERY IMAGE 4: gym interior -->
+    <img src="assets/images/gallery-4.jpg" alt="Gym interior" loading="lazy" class="wide">
+    <!-- GALLERY IMAGE 5: group workout -->
+    <img src="assets/images/gallery-5.jpg" alt="Group workout" loading="lazy">
+    <!-- GALLERY IMAGE 6: fitness lifestyle -->
+    <img src="assets/images/gallery-6.jpg" alt="Fitness lifestyle" loading="lazy" class="tall">
+  </div>
+</section>
+<div class="lightbox" id="lightbox"><img src="" alt=""></div>
+
+<!-- TESTIMONIALS: add or remove .testimonial blocks -->
+<section class="section testimonials">
+  <h2 class="section-title reveal">WHAT MEMBERS SAY</h2>
+  <div class="slider" id="slider">
+    <blockquote class="testimonial active">“FFL completely changed my approach to fitness. The trainers actually care about your progress.”<cite>Aditya</cite></blockquote>
+    <blockquote class="testimonial">“I lost 9 kg in four months and I never felt lost in the gym.”<cite>Neha</cite></blockquote>
+    <blockquote class="testimonial">“Clean, never overcrowded, and the equipment is always in good shape.”<cite>Vikram</cite></blockquote>
+    <blockquote class="testimonial">“The morning batch keeps me honest. I haven't skipped a week since joining.”<cite>Priya</cite></blockquote>
+  </div>
+  <div class="slider-dots" id="sliderDots"></div>
+</section>
+
+<!-- CALL TO ACTION -->
+<section class="cta">
+  <!-- CTA BACKGROUND IMAGE -->
+  <img class="cta-bg" src="assets/images/cta-bg.jpg" alt="" loading="lazy">
+  <div class="cta-content reveal">
+    <h2>YOUR STRONGEST VERSION STARTS TODAY.</h2>
+    <p>Stop waiting for the perfect time. Start your transformation with FFL Gym.</p>
+    <a href="#contact" class="btn">Join FFL Gym</a>
+  </div>
+</section>
+
+<!-- CONTACT: replace the placeholder details below -->
+<section class="section contact" id="contact">
+  <div class="contact-info reveal">
+    <h2>GET IN TOUCH</h2>
+    <p>📍 123 Fitness Street, Your City, India</p>
+    <p>📞 +91 98765 43210</p>
+    <p>✉️ hello@fflgym.com</p>
+    <p>🕔 Mon–Sat: 5:00 AM – 10:00 PM<br>Sun: 7:00 AM – 12:00 PM</p>
+    <!-- GOOGLE MAPS: paste your Google Maps embed <iframe> here -->
+    <div class="map-placeholder">Google Map goes here</div>
+    <a class="btn btn-outline" href="https://wa.me/919876543210" target="_blank" rel="noopener">Chat on WhatsApp</a>
+  </div>
+  <form class="contact-form reveal" id="contactForm">
+    <input type="text" name="name" placeholder="Name" required>
+    <input type="tel" name="phone" placeholder="Phone" required>
+    <input type="email" name="email" placeholder="Email">
+    <select name="goal"><option>Fitness Goal</option><option>Weight Loss</option><option>Muscle Gain</option><option>Strength</option><option>General Fitness</option></select>
+    <textarea name="message" rows="4" placeholder="Message"></textarea>
+    <button class="btn" type="submit">Send Message</button>
+    <p class="form-note" id="formNote"></p>
+  </form>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div><a href="#home" class="logo">FFL <span>GYM</span></a><p>Train. Transform. Repeat.</p></div>
+  <nav class="footer-links"><a href="#home">Home</a><a href="#about">About</a><a href="#programs">Programs</a><a href="#trainers">Trainers</a><a href="#membership">Membership</a><a href="#contact">Contact</a></nav>
+  <!-- SOCIAL LINKS: replace the # with your real links -->
+  <div class="socials"><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">YouTube</a><a href="https://wa.me/919876543210">WhatsApp</a></div>
+  <p class="copyright">© 2026 FFL Gym. All rights reserved.</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/script.js"></script>
+<script src="js/animations.js"></script>
+</body>
+</html>
